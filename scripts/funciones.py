@@ -14,7 +14,7 @@ from openpyxl.formatting.rule import ColorScaleRule, CellIsRule
 user_profile = os.environ.get("USERPROFILE")
 
 # Construir la ruta a la carpeta de OneDrive de la empresa. Por ejemplo:
-base_path = os.path.join(user_profile, "OneDrive - Telefonica", "Proceso TOA")
+base_path = os.path.join(user_profile, "OneDrive - Telefonica", "Dalia Paola Rodriguez Cruz's files - TOA_proceso")
 
 
 def procesar_archivos_tickets(carpeta, tabla, conexion, id):

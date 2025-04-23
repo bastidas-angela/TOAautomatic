@@ -21,7 +21,7 @@ def procesar_datos():
     # Definir la ruta principal donde se encuentran los archivos en OneDrive
     # Obtener el directorio del perfil del usuario actual:
     user_profile = os.environ.get("USERPROFILE")
-    base_path = os.path.join(user_profile, "OneDrive - Telefonica", "Proceso TOA")
+    base_path = os.path.join(user_profile, "OneDrive - Telefonica", "Dalia Paola Rodriguez Cruz's files - TOA_proceso")
     print(f"Ruta base: {base_path}")
     
     # Verificar si se tienen permisos de lectura y escritura en la carpeta base

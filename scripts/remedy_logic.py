@@ -11,7 +11,7 @@ rango_espera=0.25 # 15 minutos
 # --- 1. Configuración de rutas y conexión a la base de datos ---
 # Obtener el directorio del perfil del usuario actual:
 user_profile = os.environ.get("USERPROFILE")
-base_path = os.path.join(user_profile, "OneDrive - Telefonica", "Proceso TOA")
+base_path = os.path.join(user_profile, "OneDrive - Telefonica", "Dalia Paola Rodriguez Cruz's files - TOA_proceso")
 carpeta_base = "Remedy base"
 carpeta_old = os.path.join(base_path, carpeta_base, "old")
 
